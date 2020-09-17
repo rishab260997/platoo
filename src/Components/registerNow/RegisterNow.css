@@ -1,0 +1,28 @@
+.btn-reg {
+    margin-top: 40%;
+    padding:22px;
+    background: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Kumbh Sans";
+    text-align: center;
+}
+.want-h{
+    padding-top :20%;
+    font-size :35px;
+    color: #FA6C00;
+    font-weight :bold;
+}
+.want-h2{
+    font-size :30px;
+    color: #2A2A2A;
+    font-weight :bold;
+}
+.want-h2 a{
+    font-size :30px;
+    color: #FA6C00;
+    font-weight :bold;
+}

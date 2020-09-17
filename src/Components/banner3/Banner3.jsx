@@ -5,13 +5,16 @@ import Banner3_1 from '../../assets/Banner3_1.jpg';
 import Banner3_2 from '../../assets/Banner3_2.jpg';
 import Banner3_4 from '../../assets/Banner3_4.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
+import Banner3_0 from '../../assets/Banner3_0.png';
 
 export default function Banner3() {
     return <div className="banner3">
+        <img src={Banner3_0}/>
         <Container>
             <Row>
-                <Col><h3>Platoo does one thing</h3>
-                    <h1 style={{textAlign:"left", color:"black", paddingTop:"0"}}>EMPOWERS!</h1><br /><br />
+            <Col xs={ 12} sm={12} md= {6} >
+                <h3 className="h3">Platoo does one thing</h3>
+                    <h1 className="h1" >EMPOWERS!</h1><br /><br />
                     <h6>With its ready-to-use virtual event application,<br />
             Platoo is making virtual event platforms accessible, like never before.
         </h6><p></p>
@@ -25,12 +28,12 @@ export default function Banner3() {
                     <p>
                         And for this you need not be a techy!
         </p></Col>
-                <Col md="auto">
+                <Col  xs = {12 } sm = { 12} md= {6}>
                     <img src={Banner3_1} /><img src={Banner3_2}/>
                 </Col>
             </Row>
             <br /><br /><br />
-            <h2 style={{textAlign:"center", color:"#CF502B"}}>"If you know how to operate your social media accounts
+            <h2 className="h2" style={{textAlign:"center", color:"#CF502B"}}>"If you know how to operate your social media accounts
             <br/> 
             you can make a virtual platform at Platoo"<br/>
             <img style={{paddingTop:"0"}} src={Banner3_4}/></h2>

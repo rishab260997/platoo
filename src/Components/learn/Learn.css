@@ -1,0 +1,32 @@
+.adv-headings{
+    padding-top:5%;
+    color:#191919;
+   font-size : 30px;
+   font-weight : bold;
+   padding-left : 3%;
+}
+.columns {
+    background : #fff;
+    border-radius : 2%;
+    margin :4%;
+    padding :2%;
+}
+.columns2{
+    margin-top : 8%;
+    margin-bottom : 8%;
+}
+.columns3{
+    margin-top : 16%;
+    margin-bottom : 8%;
+}
+.le-img {
+     display : block ;
+      margin :auto;
+      padding : 10%;
+}
+.le-p{
+    color :#313131;
+    font-size:18px;
+    font-weight : 600;
+    text-align : left;
+}

@@ -1,17 +1,16 @@
-h3{
-    
-    color:#CF502B;
+.h3{
+    font-size: 40px;
+color: #e64417;
+font-weight: bold;
+padding-bottom:0;
 }
-
 .banner3{
     text-align:left;
     padding-top:10%;
 }
-
-img{
+.img{
     padding-top:25%;
 }
-
 .butt{
     background:#fdeee4;
     border-radius:20px;
@@ -23,7 +22,6 @@ img{
     text-decoration: none;
     cursor: pointer;
 }
-
 .butt1{
     background:#CF502B;
     border-radius:20px;
@@ -34,4 +32,39 @@ img{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+}
+.with-p {
+padding-bottom:0;
+font-size: 18px;
+line-height: 30px;
+color: #161616;
+font-weight: 600;
+/* font-family: "Open Sans"; */
+}
+.platoo-p {
+    font-weight :bold;
+    font-size : 40px;
+    color:#e64417;
+}
+.platoo-p2 {
+    font-weight :bolder;
+    font-size : 60px;
+    color:#000;
+}
+.with-p2{
+    padding-top :0;
+}
+.h1{
+    font-size: 40px;
+    text-align:left;
+color: #191919;
+font-weight: bold;
+padding-top:0;
+}
+
+.h2{
+    font-size: 40px;
+    color: #e64417;
+    font-weight: bold;
+    text-align: center;
 }

@@ -14,11 +14,13 @@ export default function header() {
                 <Nav className="mr-auto">
                     
                 </Nav>
-                <Nav className="link">
-                    <Nav.Link href="#">Home</Nav.Link>
-                    <Nav.Link href="#">Platoo</Nav.Link>
-                    <Nav.Link href="#">Features</Nav.Link>
-                    <Nav.Link href="#">Register</Nav.Link>
+                <Nav >
+                    <Nav.Link className="link" href="#">Home</Nav.Link>
+                    <Nav.Link className="link" href="#">Platoo</Nav.Link>
+                    <Nav.Link className="link" href="#">Features</Nav.Link>
+                    <Nav.Link className="link" href="#">Register</Nav.Link>
+                    <Nav.Link className="link" href="#">Contact us</Nav.Link>
+
                     <Button className="butt2">Sign In</Button>
 
                 </Nav>

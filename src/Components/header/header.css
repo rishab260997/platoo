@@ -24,6 +24,16 @@
     padding-top:25px;
 }
 
+.link{
+    font-size: 14px;
+color: rgba(0,0,0,1) !important;
+
+font-weight: bold;
+}
+.link:hover{
+    color:#ff8800 !important;
+}
+
 .butt:hover, .butt2:hover{
     color:#ff8800;
     background:#ffa844;

@@ -5,7 +5,7 @@ import './Develop.css';
 export default function Develop() {
     return (
         <div>
-            <h1>Develop your Platform on Platoo and Host</h1>
+            <h1 className="develop-c">Develop your Platform on Platoo and Host</h1>
             
             <div className="d-flex flex-row justify-content-around container" id="one">
                 <h6>Webinars</h6>
