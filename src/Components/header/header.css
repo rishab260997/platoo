@@ -1,0 +1,35 @@
+
+.butt{
+    background:#f79e46;
+    border-radius:20px;
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.butt2{
+
+    background:#f79e46;
+    border-radius:20px;
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.img{
+    padding-top:25px;
+}
+
+.butt:hover, .butt2:hover{
+    color:#ff8800;
+    background:#ffa844;
+    text-decoration:none;
+}
+
+.clear {
+    clear : both;
+}
