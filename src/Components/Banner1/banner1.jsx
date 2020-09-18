@@ -19,7 +19,7 @@ function Banner1() {
                      <br/><br/>
                      <br/><br/>
                      <br/><br/>
-                        <button className="butt1" >RegisterNow</button>{' '}
+                        <button className="butt1" >Register Now</button>{' '}
                     </div>
                 </Col>
                 <Col sm={6}>

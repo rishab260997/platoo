@@ -51,8 +51,17 @@
 button{
     background:#CF502B;
     float:left;
+    padding:22px;
 }
 .cntnr{
     padding-top:5%;
     padding-bottom:5%;
+}
+.butt1{
+    padding-left:8% !important;
+    padding-right:8% !important;
+    padding-top:3% !important;
+    padding-bottom:2% !important;
+    border-radius:40px !important;
+    
 }
