@@ -5,8 +5,7 @@ body{
   background-image:url(./assets/Homepage.jpg);
   background-repeat: no-repeat, repeat;
   background-position: center;  
-  background-size: cover;
-  background-size: 99% 5500px;
+  background-size: 100% 5500px;
   overflow-x : hidden;
 
 }

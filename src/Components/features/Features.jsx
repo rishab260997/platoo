@@ -1,10 +1,10 @@
 import React from 'react';
 import './Features.css'
 import f1 from '../../assets/f1.png';
-import f2 from '../../assets/f1.png';
-import f3 from '../../assets/f1.png';
-import f4 from '../../assets/f1.png';
-import f5 from '../../assets/f1.png';
+import f2 from '../../assets/f2.png';
+import f3 from '../../assets/f3.png';
+import f4 from '../../assets/f4.png';
+import f5 from '../../assets/f5.png';
 import { Container, Row, Col } from 'react-bootstrap'
 export default function Features() {
     return (

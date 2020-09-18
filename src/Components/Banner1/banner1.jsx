@@ -13,13 +13,12 @@ function Banner1() {
                             Virtual Events platform ?<br/> </span>
                         <span className="build-your"> Build your platform NOW! <br/></span>
                         
-                        <button className="butt">only at <span className = "rupee"> &#8377;  4999 </span> </button>{' '}
+                        <button className="buttonly">only at <span className = "rupee"> &#8377;  4999 </span> </button>{' '}
 
-                     <br/>
                      <br/><br/>
                      <br/><br/>
                      <br/><br/>
-                        <button className="butt1" >Register Now</button>{' '}
+                        <button className="register-now" >Register Now</button>{' '}
                     </div>
                 </Col>
                 <Col sm={6}>

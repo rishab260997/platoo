@@ -1,24 +1,26 @@
 .still-paying{
     padding-top : 4%;
-    font-size : 1.4rem;
-    font-weight : 600;
+    font-size : 24px;
+    font-weight : bold;
     text-align : left;
     color : #252525;
+    line-height: 28px;
+    
 }
 .build-your {
-    font-size : 2rem;
+    font-size : 40px;
     font-weight : 600;
-    color : #CF502B;
+    color : #dd5526;
     text-align : left;
 }
 .register-now {
-    background:  #D56933;
+    background:  #fa5d0f;
     color : #fff;
-    padding: 2% 8%;
+    padding: 13px 35px;
     border : none;
     border-radius : 3rem;
     display :block;
-    font-size :0.9rem;
+    font-size :16px;
     font-weight : 600;
 }
 .only-at {
@@ -45,14 +47,21 @@
  width :100%;
 }
 .rupee {
-    font-size :1.4rem;
+    font-size :26px;
+    font-weight:bold;
+}
+.buttonly{
+    background:#fdeee4;
+    border-radius:40px;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    /* cursor: pointer; */
 }
 
-button{
-    background:#CF502B;
-    float:left;
-    padding:22px;
-}
+
 .cntnr{
     padding-top:5%;
     padding-bottom:5%;
@@ -63,5 +72,6 @@ button{
     padding-top:3% !important;
     padding-bottom:2% !important;
     border-radius:40px !important;
+    color:#ff7835;
     
 }

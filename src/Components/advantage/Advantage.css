@@ -18,6 +18,8 @@
 
   .for-org-ul{
     padding-left :15%;
+    font-family: 'Open Sans', sans-serif;
+
     list-style-image: url('../../assets/check.png');
   }
 
@@ -26,6 +28,8 @@
 
   }
   .for-org-ul2{
+    font-family: 'Open Sans', sans-serif;
+
     padding-left :15%;
     list-style-image: url('../../assets/check.png');
   }
@@ -91,4 +95,9 @@
     background-color: #FFFFFF;
     /* font-family: "Open Sans"; */
   }
-  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .col-org{
+      margin:0;
+    }
+  }

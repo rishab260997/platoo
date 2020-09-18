@@ -35,6 +35,11 @@
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .btn-reg{
+        padding-top:0;
+        padding-bottom:0;
+    }
+
     .reg1{
       
         padding-left :5%;

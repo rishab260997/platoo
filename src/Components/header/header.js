@@ -5,14 +5,12 @@ import { Nav,Navbar,NavDropdown,Container, Row, Col, Button } from 'react-bootst
 
 export default function header() {
     return (
-        <div>
-        <Container>
+        <div className="hdr">
              <Navbar collapseOnSelect expand="lg">
             <Navbar.Brand href="#home"><img className="header" src={logo} alt="Platoo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    
                 </Nav>
                 <Nav >
                     <Nav.Link className="link" href="#">Home</Nav.Link>
@@ -27,7 +25,6 @@ export default function header() {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-        </Container>
         
         </div>
 

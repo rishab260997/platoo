@@ -8,7 +8,7 @@ function Advantage() {
             <Container>
                 <h1 className="adv-heading"> Platoo ADVANTAGE</h1>
                 <Row>
-                    <Col sm={5} className="col-org">
+                    <Col  xs={12} sm={5} className="col-org">
                         <p className="for-org"> FOR ORGANISATIONS</p>
                         <ul className="for-org-ul">
                             <li> Build your own platform <br /> hassle free </li>
@@ -18,7 +18,7 @@ function Advantage() {
                             <li> Create customised demos in <br /> no time and cost </li>
                         </ul>
                     </Col>
-                    <Col sm={5} className="col-ind">
+                    <Col xs={12} sm={5} className="col-ind">
                         <p className="for-ind"> FOR INDIVIDUALS</p>
                         <ul className="for-org-ul2">
                             <li> Learn the 'mandatory' <br /> technology </li>
