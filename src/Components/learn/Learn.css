@@ -3,13 +3,13 @@
     color:#191919;
    font-size : 30px;
    font-weight : bold;
-   padding-left : 3%;
+   /* padding-left : 3%; */
 }
 .columns {
     background : #fff;
     border-radius : 2%;
-    margin :4%;
-    padding :2%;
+    /* margin :1%; */
+    padding :6%;
 }
 .columns2{
     margin-top : 8%;
@@ -30,3 +30,15 @@
     font-weight : 600;
     text-align : left;
 }
+
+.zoom{
+    padding:1%;
+    width:100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .adv-headings{
+       text-align :center;
+    }
+  }

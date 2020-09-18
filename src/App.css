@@ -7,7 +7,7 @@ body{
   background-position: center;  
   background-size: cover;
   background-size: 99% 5500px;
-
+  overflow-x : hidden;
 
 }
 
@@ -22,8 +22,7 @@ body{
   }
 }
 .App{
-  font-family: "Kumbh Sans";
-}
+  font-family: 'Kumbh Sans', sans-serif;}
 
 .App-link {
   color: #61dafb;

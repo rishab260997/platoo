@@ -1,4 +1,5 @@
 
+
 .butt{
     background:#f79e46;
     border-radius:20px;
@@ -20,12 +21,10 @@
     text-decoration: none;
     cursor: pointer;
 }
-.img{
-    padding-top:25px;
-}
 
 .link{
     font-size: 14px;
+    padding-right:2%;
 color: rgba(0,0,0,1) !important;
 
 font-weight: bold;

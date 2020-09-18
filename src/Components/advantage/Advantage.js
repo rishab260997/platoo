@@ -20,7 +20,7 @@ function Advantage() {
                     </Col>
                     <Col sm={5} className="col-ind">
                         <p className="for-ind"> FOR INDIVIDUALS</p>
-                        <ul>
+                        <ul className="for-org-ul2">
                             <li> Learn the 'mandatory' <br /> technology </li>
                             <li> Develop a virtual platform for <br /> yourself </li>
                             <li> Conduct virtual events for <br /> clients at the comfort of your <br /> home  </li>

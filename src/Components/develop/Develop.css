@@ -1,5 +1,6 @@
-h1{
+.develop-c{
     padding-top:10%;
+    padding-bottom:2%;
     margin-right:5%;
     text-align:center;
     font-weight:bolder;
@@ -7,12 +8,29 @@ h1{
 }
 
 
-#one{
+.one {
+    padding-left:10%;
+    padding-right:10%;
     text-decoration:none;
-    margin-left:5%;
-    margin-right:5%;
-    padding-top:1.5%;
-    padding-left:5%;
-    padding-right:5%;
-    color:#808080;
+    font-size: 20px !important;
+    line-height: 57px;
+    color: #afafaf;
+    font-weight: bold;
+    text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .develop-c{
+       font-size : 24px;
+    }
+    .one h6{
+        text-decoration:none;
+        font-size: 12px !important;
+        line-height: 12px;
+        color: #afafaf;
+        font-weight: bold;
+        text-align: center;
+    }
+  }

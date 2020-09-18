@@ -9,6 +9,7 @@ import VirtualPlatform from './Components/virtualPlatform/VirtualPlatform';
 import Features from './Components/features/Features';
 import RegisterNow from './Components/registerNow/RegisterNow';
 import Learn from './Components/learn/Learn';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div style={{height:'5500px', width:"100%"}} className="App">
@@ -21,6 +22,7 @@ function App() {
       <VirtualPlatform/>
       <Learn/>
       <RegisterNow/>
+      <Footer/>
     </div>
   );
 }

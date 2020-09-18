@@ -1,5 +1,5 @@
 .vp1{
-    padding-top:20%;
+    padding-top:30%;
     font-size :60px;
     font-size: 60px;
 color: #e64417;
@@ -27,14 +27,18 @@ font-weight: bold;
         font-weight:bold;
         font-size :30px;
     }
-    .what-p {
+    .tickul{
+        list-style-image: url('../../assets/check.png');
+    }
+    .what-li {
         color: #191919;
         font-weight:600;
         font-size :18px;
     }
     
-    
-    
+    .Banr4{
+        width:100%;
+    }
     
     
     

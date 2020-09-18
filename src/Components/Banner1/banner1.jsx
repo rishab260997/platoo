@@ -5,20 +5,20 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 
 function Banner1() {
     return (
-        <Container>
+        <Container className="cntnr">
             <Row>
                 <Col sm={6}>
                     <div className="banner-bg">
-                        <p className="still-paying"> Still paying for a <br />
-                            Virtual Events platform ? </p>
-                        <p className="build-your"> Build your platform NOW! </p>
-                        <p></p>
+                        <span className="still-paying"> Still paying for a <br />
+                            Virtual Events platform ?<br/> </span>
+                        <span className="build-your"> Build your platform NOW! </span>
+                        
                         <Button className="butt">only at <span className = "rupee"> &#8377;  4999 </span> </Button>{' '}
 
                      <br/>
                      <br/><br/>
                      <br/><br/>
-                     <br/>
+                     <br/><br/>
                         <Button className="butt1" >RegisterNow</Button>{' '}
                     </div>
                 </Col>

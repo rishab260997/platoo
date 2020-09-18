@@ -1,29 +1,50 @@
 import React from 'react';
-import {Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './Develop.css';
 
 export default function Develop() {
     return (
         <div>
             <h1 className="develop-c">Develop your Platform on Platoo and Host</h1>
-            
-            <div className="d-flex flex-row justify-content-around container" id="one">
-                <h6>Webinars</h6>
-                <h6>Trade Shows</h6>
-                <h6>Exhibitions</h6>
-                <h6>Seminars & Conference</h6>
-            </div>
-            <div className="d-flex flex-row justify-content-around container" id="one">
-                <h6>Roundtables</h6>
-                <h6>Customer Meets</h6>
-                <h6>Product-Launches</h6>
-                <h6>Training Sessions</h6>
-            </div>
-            <div className="d-flex flex-row justify-content-around container" id="one">
-                <h6>Sales Meet</h6>
-                <h6>Team Building Activities</h6>
-                <h6>CXO Keynotes</h6>
-                <h6>Executive Retreats</h6>
+
+            <div className="row one">
+                <div className="col-xs-6 col-sm-3">
+                    Webinar
+                         </div>
+                <div className="col-xs-6 col-sm-3">
+                    Trade Shows
+
+                </div>
+                <div className="col-xs-6 col-sm-3">
+                    Exhibitions
+                        </div>
+                <div className="col-xs-6 col-sm-3">
+                    Seminars & Conference
+                </div>
+                <div className=" col-xs-6 col-sm-3">
+                    Roundtables
+                       </div>
+                <div className="col-xs-6 col-sm-3">
+                    Customer Meets
+                </div>
+                <div className="col-xs-6 col-sm-3">
+                    Product-Launches
+                        </div>
+                <div className="col-xs-6 col-sm-3">
+                    Training Sessions
+                </div>
+                <div className=" col-xs-6 col-sm-3">
+                    Sales Meet
+                       </div>
+                <div className="col-xs-6 col-sm-3">
+                    Team Building Activities
+                </div>
+                <div className="col-xs-6 col-sm-3">
+                    CXO Keynotes
+                        </div>
+                <div className="col-xs-6 col-sm-3">
+                    Executive Retreats
+                </div>
             </div>
         </div>
     )

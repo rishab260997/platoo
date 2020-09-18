@@ -9,9 +9,10 @@
     font-weight: bold;
     font-family: "Kumbh Sans";
     text-align: center;
+   
 }
 .want-h{
-    padding-top :20%;
+    padding-top :40%;
     font-size :35px;
     color: #FA6C00;
     font-weight :bold;
@@ -26,3 +27,27 @@
     color: #FA6C00;
     font-weight :bold;
 }
+
+.Register{
+    padding-top:10%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .reg1{
+      
+        padding-left :5%;
+    }
+    .want-h{
+        text-align: center;
+    }
+    .want-h2{
+        text-align: center;
+    }
+    .reg2{
+      display:flex;
+      justify-content: center;
+      padding-bottom:2%;
+    }
+  }

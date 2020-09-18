@@ -35,10 +35,11 @@
     font-weight : 600;
 }
 .banner-bg {
-    padding :5%;
+    padding-top :15%;
+    padding-bottom :0%;
 }
 .graphic1 {
-  padding : 7%;
+  padding-top:10%;
 }
 .graphic1 img {
  width :100%;
@@ -51,4 +52,7 @@ button{
     background:#CF502B;
     float:left;
 }
-
+.cntnr{
+    padding-top:5%;
+    padding-bottom:5%;
+}

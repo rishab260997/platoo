@@ -8,7 +8,7 @@ export default function header() {
         <div>
         <Container>
              <Navbar collapseOnSelect expand="lg">
-            <Navbar.Brand href="#home"><img className="img" src={logo} alt="Platoo" /></Navbar.Brand>
+            <Navbar.Brand href="#home"><img className="header" src={logo} alt="Platoo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
@@ -20,6 +20,7 @@ export default function header() {
                     <Nav.Link className="link" href="#">Features</Nav.Link>
                     <Nav.Link className="link" href="#">Register</Nav.Link>
                     <Nav.Link className="link" href="#">Contact us</Nav.Link>
+                    <Nav.Link className="link" href="#"></Nav.Link>
 
                     <Button className="butt2">Sign In</Button>
 

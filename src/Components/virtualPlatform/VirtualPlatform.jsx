@@ -15,41 +15,51 @@ export default function VirtualPlatform() {
             <Container>
                 <Row>
                     <Col sm={8}>
-                        <h4 className = "dev-h"> Develop your virtual Platform</h4>
+                        <h4 className="dev-h"> Develop your virtual Platform</h4>
                         <Row>
-                            <Col xs={2} md={1}>
-                                <span><img src={Banner4_1} alt="img" /></span>
+                            <Col xs={12} md={4}>
+                                <Row>
+                                    <Col sm={3}>
+                                        <span><img src={Banner4_1} alt="img" /></span>
+                                    </Col>
+                                    <Col sm={9}>
+                                        <span>
+                                            Duration:<br />
+                                            <b className="five-h" >5 hours</b>
+                                        </span>
+                                    </Col>
+                                </Row>
                             </Col>
-                            <Col xs={6} md={2}>
-                                <span>
-                                    Duration:<br />
-                                    <b className="five-h" >5 hours</b>
-                                </span>
-                            </Col>
-                            <Col xs={2} md={1}>
-                                <span><img src={Banner4_2} alt="img" /></span>
-                            </Col>
-                            <Col xs={6} md={4}>
-                                <span>
-                                    Starting from<br />
-                                    <b className="five-h" >Friday, 25th Sept 2020</b>
-                                </span>
+                            <Col xs={12} md={8}>
+                                <Row> <Col sm={2}>
+                                    <span><img src={Banner4_2} alt="img" /></span>
+                                </Col>
+                                    <Col sm={10}>
+                                        <span>
+                                            Starting from:<br />
+                                            <b className="five-h" >Friday, 25th Sept 2020</b>
+                                        </span>
+                                    </Col>
+                                </Row>
                             </Col>
                         </Row>
                         <Row>
                             <Col>
                                 <p className="what-h" >What's included:</p>
-                                <p className="what-p"> Access to online sessions</p>
-                                <p className="what-p"> Sub-domain access for practice and hosting demos (for 3 months)</p>
-                                <p className="what-p"> Virtual Environment design templates</p>
-                                <p className="what-p"> Certificate of completion</p>
-                                <p className="what-p"> 24X7 Assistance</p>
+                                <ul className="tickul">
+
+                                    <li className="what-li"> Access to online sessions</li>
+                                    <li className="what-li"> Sub-domain access for practice and hosting demos (for 3 months)</li>
+                                    <li className="what-li"> Virtual Environment design templates</li>
+                                    <li className="what-li"> Certificate of completion</li>
+                                    <li className="what-li"> 24X7 Assistance</li>
+                                </ul>
                             </Col>
-                            <Col></Col>
+                           
                         </Row>
                     </Col>
                     <Col sm={4}>
-                        <img src={Banner4} alt="img" />
+                        <img className="Banr4" src={Banner4} alt="img" />
                     </Col>
                 </Row>
             </Container>

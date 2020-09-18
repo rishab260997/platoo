@@ -5,19 +5,23 @@ import './RegisterNow.css';
 
 export default function RegisterNow() {
     return (
-        <div>
+        <div className="Register">
             <Row>
-                <Col>
+                <Col xs={12} md={4}>
                     <img src={Register1} alt="img" />
                 </Col>
-                <Col >
-                    <h3 className="want-h" >Want to know more?</h3>
-                    <h4 className="want-h2" >Reach out to us on<br /><a href="#">hello@platoo.in</a></h4>
+                <Col xs={12} md={4}>
+                    <div className="reg1">
+                        <h3 className="want-h" >Want to know more?</h3>
+                        <h4 className="want-h2" >Reach out to us on<br /><a href="#">hello@platoo.in</a></h4>
+                    </div>
                 </Col>
-                <Col>
-                    <button className="btn-reg">
-                        Register Now</button>
+                <Col xs={12} md={4}>
+                    <div className="reg2">
+                        <button className="btn-reg">   Register Now</button> 
+                    </div>
                 </Col>
+
             </Row>
         </div>
     )

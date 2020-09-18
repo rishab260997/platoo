@@ -6,11 +6,22 @@ padding-bottom:0;
 }
 .banner3{
     text-align:left;
-    padding-top:10%;
+    padding-top:4%;
+}
+.Banner31{
+    padding-top:35%;
+    width:100%;
 }
 .img{
     padding-top:25%;
 }
+
+.Banner30{
+    padding:3%;
+    padding-left:7%;
+    padding-bottom:1%;
+}
+
 .butt{
     background:#fdeee4;
     border-radius:20px;
@@ -54,16 +65,17 @@ font-weight: 600;
 .with-p2{
     padding-top :0;
 }
-.h1{
-    font-size: 40px;
+.hg1{
+    font-size: 60px;
     text-align:left;
 color: #191919;
-font-weight: bold;
+font-weight: 1200;
 padding-top:0;
 }
 
-.h2{
+.hg2{
     font-size: 40px;
+    padding-top:7%;    
     color: #e64417;
     font-weight: bold;
     text-align: center;
