@@ -33,9 +33,7 @@ font-weight: bold;
     color:#ff8800 !important;
 }
 
-.butt:hover, .butt2:hover{
-    color:#ff8800;
-    background:#ffa844;
+.butt2:hover{
     text-decoration:none;
 }
 

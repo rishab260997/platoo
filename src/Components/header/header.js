@@ -22,7 +22,7 @@ export default function header() {
                     <Nav.Link className="link" href="#">Contact us</Nav.Link>
                     <Nav.Link className="link" href="#"></Nav.Link>
 
-                    <Button className="butt2">Sign In</Button>
+                    <button className="butt2">Sign In</button>
 
                 </Nav>
             </Navbar.Collapse>

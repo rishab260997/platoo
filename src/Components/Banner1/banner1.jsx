@@ -11,15 +11,15 @@ function Banner1() {
                     <div className="banner-bg">
                         <span className="still-paying"> Still paying for a <br />
                             Virtual Events platform ?<br/> </span>
-                        <span className="build-your"> Build your platform NOW! </span>
+                        <span className="build-your"> Build your platform NOW! <br/></span>
                         
-                        <Button className="butt">only at <span className = "rupee"> &#8377;  4999 </span> </Button>{' '}
+                        <button className="butt">only at <span className = "rupee"> &#8377;  4999 </span> </button>{' '}
 
                      <br/>
                      <br/><br/>
                      <br/><br/>
                      <br/><br/>
-                        <Button className="butt1" >RegisterNow</Button>{' '}
+                        <button className="butt1" >RegisterNow</button>{' '}
                     </div>
                 </Col>
                 <Col sm={6}>
