@@ -15,7 +15,7 @@ export default function VirtualPlatform() {
             <Container>
                 <Row>
                     <Col sm={8}>
-                        <h4 className="dev-h"> Develop your virtual Platform</h4>
+                        <h4 className="dev-h"> Develop your Virtual platform</h4>
                         <Row>
                             <Col xs={12} md={4}>
                                 <Row>
