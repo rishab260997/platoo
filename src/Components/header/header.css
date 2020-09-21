@@ -1,0 +1,40 @@
+
+
+
+.butt2{
+
+    background:#f79e46;
+    border-radius:20px;
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:14px;
+}
+
+.link{
+    padding-top :15px;
+    font-size: 14px;
+    padding-right:2%;
+color: rgba(0,0,0,1) !important;
+
+font-weight: bold;
+}
+.link:hover{
+    color:#ff8800 !important;
+}
+
+.butt2:hover{
+    text-decoration:none;
+}
+
+.clear {
+    clear : both;
+}
+.hdr{
+    padding-left:7%;
+    padding-top:1%;
+    padding-right:2%;
+}

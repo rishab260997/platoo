@@ -1,0 +1,21 @@
+.footimg{
+    width:100%;
+}
+/* .logo{
+    display:block;
+    margin:auto;
+    
+} */
+
+.logo1{
+    display:block !important;
+    margin:auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .logo1{
+        margin:auto;
+        display:block !important;
+    }
+  }

@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './Components/header/header';
 import './App.css';
-
+import Banner1 from './Components/Banner1/banner1';
+import Banner3 from './Components/banner3/Banner3';
+import Advantage from './Components/advantage/Advantage';
+import Develop from './Components/develop/Develop';
+import VirtualPlatform from './Components/virtualPlatform/VirtualPlatform';
+import Features from './Components/features/Features';
+import RegisterNow from './Components/registerNow/RegisterNow';
+import Learn from './Components/learn/Learn';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{height:'5500px', width:"100%"}} className="App">
+      <Header />
+      <Banner1 />
+      <Banner3 />
+      <Advantage />
+      <Features />
+      <Develop />
+      <VirtualPlatform/>
+      <Learn/>
+      <RegisterNow/>
+      <Footer/>
     </div>
   );
 }

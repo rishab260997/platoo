@@ -1,0 +1,47 @@
+.develop-c{
+    padding-top:6%;
+    padding-bottom:2%;
+    margin-right:5%;
+    text-align:center;
+    font-weight:bolder;
+    color:#f17527;
+}
+
+
+.one {
+    /* padding-left:13%;
+    padding-right:13%; */
+    text-decoration:none;
+    font-size: 20px !important;
+    line-height: 50px;
+    color: #afafaf;
+    font-weight: bold;
+    text-align: center;
+}
+.webinar{
+    margin-left: 16%;
+    margin-right: 27%;
+}
+.roundtables{
+    margin-left: 13%;
+    margin-right: 18%;
+}
+.sales-meet{
+    margin-left: 7%;
+    margin-right: 10%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .develop-c{
+       font-size : 24px;
+    }
+    .one h6{
+        text-decoration:none;
+        font-size: 12px !important;
+        line-height: 12px;
+        color: #afafaf;
+        font-weight: bold;
+        text-align: center;
+    }
+  }

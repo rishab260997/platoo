@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'), url(../src/fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KumbhSans';
+  src: local('KumbhSans'), url(../src/fonts/KumbhSans-Regular.ttf) format('truetype');
+}

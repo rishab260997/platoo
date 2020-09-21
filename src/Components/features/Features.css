@@ -1,0 +1,32 @@
+.feat-heading {
+    padding-top:5%;
+    text-align : center ;
+    font-weight: bold;
+    color :#191919;
+    font-size : 40px;
+}
+.p1-feat {
+    color : #161616;
+    text-align : center ;
+    font-weight: bold;
+    font-size : 16px;
+}
+.p2-feat {
+    text-align : center ;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.cols {
+    border-radius: 8px;
+    filter: drop-shadow(0 0 5px rgba(154,154,154,0.56));
+    background-color: #FFFFFF;
+    border: 1px solid rgba(234,98,35,0.18);
+    padding :1%;
+    margin : 1.5%;
+    /* filter: drop-shadow(0 0 5px rgba(154,154,154,0.56)); */
+}
+.img-feat {
+    margin :auto;
+    display:block;
+    padding :8%;
+}
