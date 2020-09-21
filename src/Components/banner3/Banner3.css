@@ -7,11 +7,13 @@ padding-bottom:0;
 
 .banner3{
     text-align:left;
-    padding-top:4%;
+    /* padding-top:4%; */
 }
 .Banner31{
     padding-top:35%;
     width:100%;
+    /* box-shadow: 10px 10px 5px #fdeee4; */
+    filter: drop-shadow(0 0 5px rgba(250,127,80,0.56));
 }
 .img{
     padding-top:25%;
@@ -20,7 +22,8 @@ padding-bottom:0;
 .Banner30{
     padding:3%;
     padding-left:7%;
-    padding-bottom:1%;
+    padding-bottom:0;
+    /* filter: drop-shadow(5px 2px 15px rgba(250,127,80,0.56)); */
 }
 
 .butt{
@@ -98,4 +101,15 @@ padding-top:0;
 .bnr34{
     display:block;
     margin:auto;
+    /* filter: drop-shadow(5px 2px 15px rgba(250,127,80,0.56));    */
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left :30%; */
+    /* text-align : center; */
+    font-size: 42px;
+    font-weight:600;  
 }

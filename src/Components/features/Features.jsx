@@ -8,12 +8,12 @@ import f5 from '../../assets/f5.png';
 import { Container, Row, Col } from 'react-bootstrap'
 export default function Features() {
     return (
-        <div className="features">
+        <div className="features" id="feature">
             <br />
             <Container>
                 <p className="feat-heading" > Platoo FEATURES</p>
                 <Row>
-                    <Col xs={12} sm={5} md={5} lg={2} className="cols">
+                    <Col xs={12} sm={12} md={5} lg={2} className="cols">
                         <img src={f2} className="img-feat" alt="f" />
                         <p className="p1-feat"> DEPENDABLE </p>
                         <p className="p2-feat">
@@ -25,7 +25,7 @@ export default function Features() {
                             convenience.
                       </p>
                     </Col>
-                    <Col xs={12} sm={5} md={5} lg={2} className="cols">
+                    <Col xs={12} sm={12} md={5} lg={2} className="cols">
                         <img src={f1} className="img-feat" alt="f" />
                         <p className="p1-feat"> EXTENDABLE </p>
                         <p className="p2-feat">
@@ -38,7 +38,7 @@ export default function Features() {
                             format and start
                       </p>
                     </Col>
-                    <Col xs={12} sm={5} md={5} lg={2} className="cols">
+                    <Col xs={12} sm={12} md={5} lg={2} className="cols">
                         <img src={f3} className="img-feat" alt="f" />
                         <p className="p1-feat"> FULLY <br/> CUSTOMISABLE </p>
                         <p className="p2-feat">
@@ -51,7 +51,7 @@ export default function Features() {
                             here. Ask us how:)
                       </p>
                     </Col>
-                    <Col xs={12} sm={5} md={5} lg={2} className="cols">
+                    <Col xs={12} sm={12} md={5} lg={2} className="cols">
                         <img src={f4} className="img-feat" alt="f" />
                         <p className="p1-feat"> SIMPLE <br/> USER INTERFACE </p>
                         <p className="p2-feat">
@@ -63,7 +63,7 @@ export default function Features() {
                             understand.
                       </p>
                     </Col>
-                    <Col xs={12} sm={5} md={5} lg={2} className="cols">
+                    <Col xs={12} sm={12} md={5} lg={2} className="cols">
                         <img src={f5} className="img-feat" alt="f" />
                         <p className="p1-feat"> RUNS ON <br/> ALL DEVICES </p>
                         <p className="p2-feat">

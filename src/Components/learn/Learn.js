@@ -11,7 +11,7 @@ function Learn() {
             <Container>
                 <p className="adv-headings"> Learn </p>
                 <Row>
-                    <Col sm={4} md={4} >
+                    <Col sm={12} md={4} >
                         <div className="columns columns1 ">
                             <img src={l1} alt="img" className="le-img" />
                             <p className="le-p">
@@ -23,7 +23,7 @@ function Learn() {
                         </p>
                         </div>
                     </Col>
-                    <Col sm={4} md={4} >
+                    <Col sm={12} md={4} >
                         <div className="columns columns2 ">
                             <img src={l2} alt="img" className="le-img" />
                             <p className="le-p">
@@ -32,7 +32,7 @@ function Learn() {
                         </p>
                         </div>
                     </Col>
-                    <Col sm={4} md={4} >
+                    <Col sm={12} md={4} >
                         <div className="columns columns3 ">
                             <img src={l3} alt="img" className="le-img" />
                             <p className="le-p"> Host Live virtual events. </p>

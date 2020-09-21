@@ -3,12 +3,12 @@ import './Banner3.css';
 import logo from '../../assets/Banner3.jpg';
 import Banner3_1 from '../../assets/Banner3_1.png';
 import Banner3_2 from '../../assets/Banner3_2.jpg';
-import Banner3_4 from '../../assets/Banner3_4.jpg';
+import Banner3_4 from '../../assets/Banner3_4.png';
 import { Container, Row, Col } from 'react-bootstrap';
 import Banner3_0 from '../../assets/Banner3_0.png';
 
 export default function Banner3() {
-    return <div className="banner3">
+    return <div className="banner3" id="platoo">
         <img className="Banner30" src={Banner3_0}/>
         <Container>
         
@@ -33,11 +33,11 @@ export default function Banner3() {
                     <img className="Banner31" src={Banner3_1} />
                 </Col>
             </Row>
-            <br /><br /><br />
+            
             <h2 className="hg2" >"If you know how to operate your social media accounts
             <br/> 
             you can make a virtual platform at Platoo"<br/></h2>
-            <img className="bnr34" src={Banner3_4}/>
+            <span className="team">        <img className="" src={Banner3_4}/>  Team Platoo</span>
             
         </Container>
     </div>

@@ -17,39 +17,43 @@ export default function VirtualPlatform() {
                     <Col sm={8}>
                         <h4 className="dev-h"> Develop your Virtual platform</h4>
                         <Row>
-                            <Col xs={12} md={4}>
+                            <Col xs={12} md={6} sm={6}>
                                 <Row>
-                                    <Col sm={3}>
+
+                                    <Col xs={2} md={3}>
                                         <span><img src={Banner4_1} alt="img" /></span>
                                     </Col>
-                                    <Col sm={9}>
-                                        <span>
-                                            Duration:<br />
+
+                                    <Col xs={8} md={9}>
+                                        <p className="d5h">
+                                            <b className="duration">Duration:</b><br />
                                             <b className="five-h" >5 hours</b>
-                                        </span>
+                                        </p>
                                     </Col>
+
                                 </Row>
                             </Col>
-                            <Col xs={12} md={8}>
-                                <Row> <Col sm={2}>
+                            <Col xs={12} md={6} sm={6}>
+                                <Row> <Col xs={2} md={3}>
                                     <span><img src={Banner4_2} alt="img" /></span>
                                 </Col>
-                                    <Col sm={10}>
-                                        <span>
-                                            Starting from:<br />
+                                    <Col xs={8} md={9}>
+                                        <p className="s5h">
+                                            <b className="duration">Starting from:<br /></b>
                                             <b className="five-h" >Friday, 25th Sept 2020</b>
-                                        </span>
+                                        </p>
                                     </Col>
                                 </Row>
                             </Col>
                         </Row>
+
                         <Row>
-                            <Col>
+                            <Col xs={12} sm={12}>
                                 <p className="what-h" >What's included:</p>
                                 <ul className="tickul">
 
                                     <li className="what-li"> Access to online sessions</li>
-                                    <li className="what-li"> Sub-domain access for practice and hosting demos (for 3 months)</li>
+                                    <li className="what-li li2"> Sub-domain access for practice and hosting demos (for 3 months)</li>
                                     <li className="what-li"> Virtual Environment design templates</li>
                                     <li className="what-li"> Certificate of completion</li>
                                     <li className="what-li"> 24X7 Assistance</li>
@@ -58,6 +62,7 @@ export default function VirtualPlatform() {
                            
                         </Row>
                     </Col>
+
                     <Col sm={4}>
                         <img className="Banr4" src={Banner4} alt="img" />
                     </Col>

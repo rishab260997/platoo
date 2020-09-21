@@ -10,6 +10,7 @@
     border-radius : 2%;
     /* margin :1%; */
     padding :6%;
+    filter: drop-shadow(0 0 5px rgba(238,105,40,0.75));
 }
 .columns2{
     margin-top : 8%;
@@ -27,13 +28,15 @@
 .le-p{
     color :#313131;
     font-size:18px;
-    font-weight : 600;
+    font-family: 'Open Sans', sans-serif;
     text-align : left;
 }
 
 .zoom{
     padding:1%;
     width:100%;
+    filter: drop-shadow(0 0 5px rgba(238,105,40,0.75));
+
 }
 
 @media only screen and (max-width: 768px) {

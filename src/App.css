@@ -2,11 +2,11 @@
   text-align: left;
 }
 body{
-  background-image:url(./assets/Homepage.jpg);
+  background-image:url(./assets/Homepage1.png);
   background-repeat: no-repeat, repeat;
   background-position: center;  
-  background-size: 100% 5500px;
-  overflow-x : hidden;
+  background-size: 100% 100%;
+  /* overflow-x : hidden; */
 
 }
 

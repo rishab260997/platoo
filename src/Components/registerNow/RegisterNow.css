@@ -30,11 +30,26 @@
 
 .Register{
     padding-top:10%;
+    margin-left : 15px;
+    margin-right : 15px;
 }
-
+.logo{
+    padding-top: 60%;
+    /* display : block; */
+}
+/* .row{
+    margin : none !important;
+} */
+.hide-logo{
+    display : block;
+}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+ 
+  .hide-logo{
+    display : none !important;
+}
     .btn-reg{
         padding-top:0;
         padding-bottom:0;

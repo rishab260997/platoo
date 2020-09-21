@@ -1,10 +1,25 @@
 .vp1{
-    padding-top:30%;
+    padding-top:20%;
     font-size :60px;
     font-size: 60px;
     line-height: 70px;
 color: #e64417;
 font-weight: bold;
+    }
+    .duration{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .d5h{
+        padding-left : 1% !important;
+        padding-top:5%;
+        line-height:5px;
+    }
+    .s5h{
+        padding-left :  1% !important;
+        line-height:5px;
+        padding-top:5%;
+
     }
     .dev-h {
     text-align : left;
@@ -20,7 +35,7 @@ font-weight: bold;
     text-align : left;
     color: #191919;
     font-weight:bold;
-    font-size :18px;
+    font-size :26px;
     padding-bottom:10%;
     }
     .what-h {
@@ -35,10 +50,14 @@ font-weight: bold;
     }
     .what-li {
         color: #191919;
-        font-weight:600;
         font-size :18px;
+        font-family: 'Open Sans', sans-serif;
+        line-height:70px;
+
     }
-    
+    .li2{
+        line-height:25px;
+    }
     .Banr4{
         width:100%;
     }
