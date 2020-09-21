@@ -16,7 +16,7 @@ export default function RegisterNow() {
                 <Col xs={12} md={4}>
                     <div className="reg1">
                         <h3 className="want-h" >Want to know more?</h3>
-                        <h4 className="want-h2" >Reach out to us on<br /><a>hello@platoo.in</a></h4>
+                        <h4 className="want-h2" >Reach out to us on<br /><a href="mailto:hello@platoo.in">hello@platoo.in</a></h4>
                         <div className="hide-logo">      <img className="logo" src={Logo} /> </div>
 
                     </div>

@@ -20,10 +20,10 @@ export default function header(props) {
                     <Nav.Link className="link " href="#home">Home</Nav.Link>
                     <Nav.Link className="link" href="#platoo">Platoo</Nav.Link>
                     <Nav.Link className="link" href="#feature">Features</Nav.Link>
-                    <Nav.Link className="link" href="#register">Register</Nav.Link>
-                    <Nav.Link className="link" href="#free-work">Free Workshop</Nav.Link>
+                    <Nav.Link href="https://platoo.in/register-corporate.php" className="link" href="#register">Register</Nav.Link>
+                    <Nav.Link className="link" href="https://platoo.freshsales.io/web_forms/cab034270477a681e5466156342d660733976dd2bc2c95e82e7b5779b7e0f367/form.html" target="_blank">Free Workshop</Nav.Link>
 
-                    <Nav.Link className="link" href="#contact">Contact us</Nav.Link>
+                    <Nav.Link className="link" href="#register" target="">Contact us</Nav.Link>
                     <Nav.Link className="link" href="#"></Nav.Link>
 
                     <Nav.Link href="https://admin.platoo.in/" target="_blank"><button className="butt2" target="">Sign In</button></Nav.Link>

@@ -7,7 +7,10 @@ body{
   background-position: center;  
   background-size: 100% 100%;
   /* overflow-x : hidden; */
-
+  
+}
+html{
+  scroll-behavior: smooth;
 }
 
 .App-logo {
